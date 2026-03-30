@@ -21,10 +21,11 @@ A scalable and extensible .NET-based Quantity Measurement Application that suppo
 ##### 🔹 QM16 – UC16: Integrated database using ADO.NET with proper repository pattern and transaction handling.
 ##### 🔹 QM17 – UC17: Built REST APIs using ASP.NET Core with controllers, services, and logging.
 ##### 🔹 QM18 – UC18: Implemented authentication and user management using JWT-based security.
+
 ### 🛠️ Tech Stack (.NET)
-💻 Language: C#
-⚙️ Framework: ASP.NET Core Web API
-🏗️ Architecture: N-Tier (Controller → Service → Repository → DB)
-🗄️ ORM/DB Access: ADO.NET / (Optional: Entity Framework Core)
-🔐 Authentication: JWT
-🧪 Testing: MS Testing
+#### 💻 Language: C#
+#### ⚙️ Framework: ASP.NET Core Web API
+#### 🏗️ Architecture: N-Tier (Controller → Service → Repository → DB)
+#### 🗄️ ORM/DB Access: ADO.NET / (Optional: Entity Framework Core)
+#### 🔐 Authentication: JWT
+#### 🧪 Testing: MS Testing
