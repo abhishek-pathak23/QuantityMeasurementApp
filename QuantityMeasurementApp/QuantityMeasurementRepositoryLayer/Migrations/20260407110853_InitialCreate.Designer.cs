@@ -12,7 +12,7 @@ using QuantityMeasurementRepositoryLayer.Context;
 namespace QuantityMeasurementRepositoryLayer.Migrations
 {
     [DbContext(typeof(QuantityMeasurementDbContext))]
-    [Migration("20260401053503_InitialCreate")]
+    [Migration("20260407110853_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -96,6 +96,7 @@ namespace QuantityMeasurementRepositoryLayer.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Role")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
